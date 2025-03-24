@@ -4,6 +4,7 @@ interface Project {
   description: string;
   link: string;
   image: string;
+  techStacks: string[];
 }
 defineProps<{ project: Project }>();
 
@@ -15,6 +16,16 @@ defineProps<{ project: Project }>();
   <div class="p-5">
     <h5 class="mb-2 text-2xl text-cyan-400 font-bold tracking-tight">{{ project.title }}</h5>
     <p class="mb-3 font-normal text-gray-400">{{ project.description }}</p>
+    <div class="flex mb-4">
+      <span
+        class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full bg-cyan-950 text-cyan-400"
+        v-for="tech in project.techStacks"
+        :key="tech"
+      >
+      {{ tech }}
+      </span>
+    </div>
+
     <a :href="project.link" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-cyan-600 rounded-lg hover:bg-cyan-700 focus:ring-4 focus:outline-none focus:ring-cyan-800">
       Github Repository
       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
