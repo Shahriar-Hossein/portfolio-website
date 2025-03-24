@@ -1,15 +1,20 @@
 <script setup lang="ts">
-import AboutMe from './components/AboutMe.vue';
+import AboutSection from './components/AboutSection.vue';
+import HeroSection from './components/HeroSection.vue';
 </script>
 
 <template>
-  <!-- <header>
-    
-  </header> -->
+  <div class="bg-gray-900 text-gray-100 text-lg">
+    <!-- <header>
 
-  <main>
-    <AboutMe />
-  </main>
+    </header> -->
+
+    <main class="flex-col justify-items-center px-40">
+      <HeroSection />
+      <AboutSection />
+    </main>
+
+  </div>
 </template>
 
 <style scoped>

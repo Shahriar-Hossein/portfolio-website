@@ -22,7 +22,7 @@
 }
 
 /* semantic color variables for this project */
-:root {
+/* :root {
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
@@ -48,20 +48,32 @@
     --color-heading: var(--vt-c-text-dark-1);
     --color-text: var(--vt-c-text-dark-2);
   }
+} */
+/* making default color black */
+:root {
+  --color-background: var(--vt-c-black);
+  --color-background-soft: var(--vt-c-black-soft);
+  --color-background-mute: var(--vt-c-black-mute);
+
+  --color-border: var(--vt-c-divider-dark-2);
+  --color-border-hover: var(--vt-c-divider-dark-1);
+
+  --color-heading: var(--vt-c-text-dark-1);
+  --color-text: var(--vt-c-text-dark-2);
+
+  --section-gap: 160px;
 }
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
-}
+} */
 
 body {
   min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
   transition:
     color 0.5s,
     background-color 0.5s;
