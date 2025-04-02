@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="container mx-auto flex-col items-center place-content-center py-26">
+  <section id="about" class="container mx-auto flex-col items-center place-content-center py-26">
     <div class="mx-32">
       <h1 class="text-4xl text-cyan-400 font-bold my-12"> About me </h1>
       <div class="flex justify-between content-start">
