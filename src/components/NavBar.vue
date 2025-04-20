@@ -1,4 +1,38 @@
 <script setup lang="ts">
+import { onMounted, type Ref } from 'vue';
+
+export interface SectionRefs {
+  home: Ref<HTMLElement | null>;
+  about: Ref<HTMLElement | null>;
+  project: Ref<HTMLElement | null>;
+}
+
+const props = defineProps<{
+  sectionRefsProps: SectionRefs;
+  scrollToSection: (ref: Ref<HTMLElement | null>) => void;
+}>();
+const sectionRefs = props.sectionRefsProps;
+
+// const scrollToSection = (id: string) => {
+//   const el = document.getElementById(id);
+//   if(el) {
+//     el.scrollIntoView({ behavior: 'smooth' });
+//   }
+// }
+
+// const scrollToSection = (ref) => {
+//   ref?.value?.scrollIntoView({ behavior: 'smooth' });
+// }
+
+onMounted( ()=>{
+  // sectionRefs.map((ref: HTMLElement)=>{
+  //   console.log(ref);
+
+  // });
+  console.log(sectionRefs.about);
+
+});
+
 </script>
 
 <template>
@@ -15,20 +49,12 @@
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-          <li>
-            <a href="#home" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-cyan-500" aria-current="page">Home</a>
-          </li>
-          <li>
-            <a href="#about" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-cyan-700 md:p-0 dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-          </li>
-          <li>
-            <a href="#experience" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-cyan-700 md:p-0 dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Experience</a>
-          </li>
-          <li>
-            <a href="#projects" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-cyan-700 md:p-0 dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
-          </li>
-          <li>
-            <a href="#contact" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-cyan-700 md:p-0 dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          <li
+          v-for="(ref,key) in sectionRefs"
+          :key="key"
+          >
+            <button @click="scrollToSection(ref)"
+            class="block cursor-pointer py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-cyan-500" aria-current="page">{{ key }}</button>
           </li>
         </ul>
       </div>
