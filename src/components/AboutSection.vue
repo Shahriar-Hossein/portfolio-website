@@ -32,7 +32,7 @@ defineExpose({
         </div>
         <div class="px-22">
           <img
-            class="h-auto max-w-3xs mx-auto transition-all duration-300 rounded-xl opacity-30 hover:opacity-100 shadow-xl shadow-cyan-500/50"
+            class="h-auto max-w-3xs mx-auto transition-all duration-300 rounded-xl opacity-30 hover:opacity-100 shadow-xl shadow-cyan-500/50 transition-all ease-linear duration-300"
             src="../assets/IMG-20250217-WA0004.jpg"
             alt="My Picture"
           />
