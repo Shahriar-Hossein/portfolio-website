@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, ref, type Ref } from 'vue'
+import { computed, ref, type Ref } from 'vue'
 import AboutSection from './components/AboutSection.vue'
 import HeroSection from './components/HeroSection.vue'
 import NavBar from './components/NavBar.vue'
