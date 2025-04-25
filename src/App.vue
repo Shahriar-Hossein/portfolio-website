@@ -42,7 +42,7 @@ const scrollToSection = (sectionRef: Ref<HTMLElement | null>) => {
       <NavBar :sectionRefsProps="sectionRefs" :scrollToSection="scrollToSection" />
     </header>
 
-    <main class="flex-col justify-items-center px-40">
+    <main class="flex-col justify-items-center px-2 md:px-4 lg:px-40">
       <HeroSection ref="homeRef" />
       <AboutSection ref="aboutRef" />
       <ProjectSection ref="projectsRef" />
