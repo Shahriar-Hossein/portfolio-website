@@ -1,52 +1,7 @@
 <script setup lang="ts">
 import { useTemplateRef } from 'vue';
 import ProjectCard from './ProjectCard.vue';
-
-interface Project {
-  title: string;
-  description: string;
-  link: string;
-  image: string;
-  techStacks: string[];
-}
-
-const projects: Project[] = [
-  {
-    title: "E-Learning Platform",
-    description: "This is website for online courses. Teachers can create courses, quizes, video lessons. Students can access course materials after buying the course through online payment.",
-    link: "github.come",
-    image: "/nature.jpg",
-    techStacks: ["PHP", "TailwindCSS", "Javascript", "SSLCOMMERZ"]
-  },
-  {
-    title: "Rental Book Service",
-    description: "This is website for online courses. Teachers can create courses, quizes, video lessons. Students can access course materials after buying the course through online payment.",
-    link: "github.come",
-    image: "/nature.jpg",
-    techStacks: ["PHP", "TailwindCSS", "Javascript", "SSLCOMMERZ"]
-  },
-  {
-    title: "Car Shop",
-    description: "This is website for online courses. Teachers can create courses, quizes, video lessons. Students can access course materials after buying the course through online payment.",
-    link: "github.come",
-    image: "/nature.jpg",
-    techStacks: ["PHP", "TailwindCSS", "Javascript", "SSLCOMMERZ"]
-  },
-  {
-    title: "University automation",
-    description: "This is website for online courses. Teachers can create courses, quizes, video lessons. Students can access course materials after buying the course through online payment.",
-    link: "github.come",
-    image: "/nature.jpg",
-    techStacks: ["PHP", "TailwindCSS", "Javascript", "SSLCOMMERZ"]
-  },
-  {
-    title: "Project Loading",
-    description: "This is website for online courses. Teachers can create courses, quizes, video lessons. Students can access course materials after buying the course through online payment.",
-    link: "github.come",
-    image: "/nature.jpg",
-    techStacks: ["PHP", "TailwindCSS", "Javascript", "SSLCOMMERZ"]
-  },
-];
+import { projects } from '@/data/projects';
 
 const projectsRef = useTemplateRef<HTMLElement | null>('projectsRef');
 
