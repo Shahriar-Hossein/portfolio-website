@@ -15,19 +15,16 @@ defineExpose({
       <div class="flex flex-col-reverse lg:flex-row lg:justify-between lg:content-start">
         <div class="my-2 lg:pr-12">
           <p class="mt-2">
-            Hello! My name is Shahriar. I am software engineer
+            I'm Md Shahriar Hossein, a software engineer focused on <strong>backend development</strong>, with a strong interest in building robust, scalable, and well-architected systems.
           </p>
           <p class="mt-2">
-            I’m a developer passionate about crafting accessible, pixel-perfect user interfaces that
-            blend thoughtful design with robust engineering.
+            Previously, I worked at DevSpace as a Junior Software Engineer, where I developed 90+ RESTful Laravel API endpoints across multiple projects and led backend efforts for an internal office management system with attendance and leave automation.
           </p>
           <p class="mt-2">
-            I’m a developer passionate about crafting accessible, pixel-perfect user interfaces that
-            blend thoughtful design with robust engineering.
+            In addition to professional work, I’ve developed full-featured personal projects including an e-learning platform and a university automation system, both built from scratch using raw PHP, JavaScript, and Tailwind. These helped me deeply understand database design, role-based access, real-time feedback systems, and third-party integrations like SSLCommerz.
           </p>
           <p class="mt-2">
-            I’m a developer passionate about crafting accessible, pixel-perfect user interfaces that
-            blend thoughtful design with robust engineering.
+            Whether it's crafting optimized queries, building reusable components, or collaborating across teams, I aim to write code that's clean, maintainable, and built to scale.
           </p>
         </div>
         <div class="lg:px-22">
