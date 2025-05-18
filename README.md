@@ -1,8 +1,13 @@
 # portfolio-website
 
-![Homepage Screenshot](docs/images/2025-05-18_15-26.png)
+<div align="center">
+  <img src="docs/images/2025-05-18_15-26.png" alt="Homepage Screenshot" width="300" />
+  <img src="docs/images/2025-05-18_15-27.png" alt="About Section" width="300" />
+  <img src="docs/images/2025-05-18_15-27_1.png" alt="Projects Section" width="300" />
+</div>
+<!-- ![Homepage Screenshot](docs/images/2025-05-18_15-26.png)
 ![About Section](docs/images/2025-05-18_15-27.png)
-![Projects Section](docs/images/2025-05-18_15-27_1.png)
+![Projects Section](docs/images/2025-05-18_15-27_1.png) -->
 
 A personal portfolio built with **Vue 3**, **TypeScript**, and **TailwindCSS** to showcase projects, skills, and professional achievements.
 
