@@ -1,6 +1,12 @@
 # portfolio-website
 
-This template should help get you started developing with Vue 3 in Vite.
+![Homepage Screenshot](docs/images/2025-05-18_15-26.png)
+![About Section](docs/images/2025-05-18_15-27.png)
+![Projects Section](docs/images/2025-05-18_15-27_1.png)
+
+A personal portfolio built with **Vue 3**, **TypeScript**, and **TailwindCSS** to showcase projects, skills, and professional achievements.
+
+---
 
 ## Recommended IDE Setup
 
