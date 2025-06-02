@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, type Ref } from 'vue';
+import { onMounted, onUnmounted, ref, type Ref } from 'vue';
 
 export interface SectionRefs {
   home: Ref<HTMLElement | null>;
@@ -13,17 +13,31 @@ const props = defineProps<{
 }>();
 const sectionRefs = props.sectionRefsProps;
 
+const navbarRef = ref<HTMLElement | null>(null)
+
 const isOpenNav = ref(false);
 
 const toggleNav = ()=>{
   isOpenNav.value = !isOpenNav.value;
-  console.log("toggled");
-
 }
+
+const handleOutsideClick = (event: MouseEvent)=>{
+  const clickArea = event?.target as Node
+  if(isOpenNav.value && navbarRef.value && !navbarRef.value.contains(clickArea))
+    toggleNav()
+}
+
+onMounted(()=>{
+  window.addEventListener('click', handleOutsideClick);
+})
+
+onUnmounted(()=>{
+  window.removeEventListener('click', handleOutsideClick);
+})
 </script>
 
 <template>
-  <nav class="z-10 fixed top-0 flex-no-wrap flex w-full items-center justify-between bg-gray-900 py-2 shadow-md lg:flex-wrap lg:justify-start lg:py-4 shadow-sm shadow-cyan-500/50 border-gray-700 transition-all ease-linear duration-300">
+  <nav ref="navbarRef" class="z-10 fixed top-0 flex-no-wrap flex w-full items-center justify-between bg-gray-900 py-2 shadow-md lg:flex-wrap lg:justify-start lg:py-4 shadow-sm shadow-cyan-500/50 border-gray-700 transition-all ease-linear duration-300">
     <div class="flex w-full flex-wrap items-center justify-between px-3">
       <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
           <span class="text-cyan-500 self-center text-2xl font-semibold whitespace-nowrap uppercase">Shahriar</span>
@@ -34,7 +48,7 @@ const toggleNav = ()=>{
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
           </svg>
       </button>
-      <div class="w-full md:block md:w-auto" :class="isOpenNav ? 'block' : 'hidden' " id="navbar-default">
+      <div class="w-full md:block md:w-auto transition " :class="isOpenNav ? 'block' : 'hidden' " id="navbar-default">
         <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
           <li
           v-for="(ref,key) in sectionRefs"
