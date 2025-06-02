@@ -27,8 +27,6 @@ const sectionRefs: SectionRefs = {
 // Typed scroll function
 const scrollToSection = (sectionRef: Ref<HTMLElement | null>) => {
   if (sectionRef.value) {
-    console.log(sectionRef.value);
-
     sectionRef.value.scrollIntoView({ behavior: 'smooth' })
   }
 };
