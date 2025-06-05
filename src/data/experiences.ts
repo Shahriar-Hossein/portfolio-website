@@ -18,19 +18,6 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    designation: 'Programming Trainer',
-    company_name: 'Programming Club, IUBAT',
-    company_link: 'https://www.facebook.com/groups/1689495774649321',
-    time: 'May 2022 - December 2023',
-    bullets: [
-      'Taught C/C++ fundamentals and problem-solving skills to 100+ beginner students over multiple semesters.',
-      'Designed and led a two-tier training program, transitioning students from basic syntax to competitive programming in C++.',
-      'Designed and led a two-tier training program, transitioning students from basic syntax to competitive programming in C++.',
-      'Contributed to the planning and execution of 5+ live programming competitions as a volunteer',
-      'Developed structured lesson plans and session schedule to ensure consistent, progressive learning outcomes.'
-    ],
-  },
-  {
     designation: 'Software Engineer (Part-Time)',
     company_name: 'Sharksss Capital Inc',
     company_link: 'https://www.facebook.com/profile.php?id=61576568017984',
@@ -46,7 +33,7 @@ export const experiences: Experience[] = [
   },
   {
     designation: 'Founder & CEO',
-    company_name: 'Rental Books Service',
+    company_name: 'Rental Books Service ',
     company_link: 'https://www.facebook.com/profile.php?id=100091935829821',
     time: 'May 2023 - Present',
     bullets: [
@@ -58,14 +45,41 @@ export const experiences: Experience[] = [
     ],
   },
   {
+    designation: 'PC Builder & Seller',
+    company_name: 'PC Flipping',
+    company_link: 'https://www.facebook.com/marketplace/profile/100010245782034/',
+    time: 'August 2024 - January 2025',
+    bullets: [
+      'Built and sold 4 custom PCs using a mix of used and new components, optimized for both performance and aesthetics.',
+      'Focused on popular AMD Ryzen CPUs (3500, 2600, 3600, 2700) and ensured system stability through temperature and game testing.',
+      'Installed and configured Windows OS, drivers, and essential software; performed hardware diagnostics and troubleshooting.',
+      'Practiced and improved cable management to enhance airflow and visual appeal.',
+      'Negotiated with buyers, showcased tested systems, and closed sales through Facebook Marketplace.',
+      'Gained practical experience in PC hardware, customer service, pricing strategy, and market demand analysis.'
+    ],
+  },
+  {
+    designation: 'Programming Trainer',
+    company_name: 'Programming Club, IUBAT',
+    company_link: 'https://www.facebook.com/groups/1689495774649321',
+    time: 'May 2022 - December 2023',
+    bullets: [
+      'Taught C/C++ fundamentals and problem-solving skills to 100+ beginner students over multiple semesters.',
+      'Designed and led a two-tier training program, transitioning students from basic syntax to competitive programming in C++.',
+      'Organized 15+ practice contests on VJudge, including weekly and monthly challenges to simulate live competition environments.',
+      'Contributed to the planning and execution of 5+ live programming competitions as a volunteer.',
+      'Developed structured lesson plans and session schedule to ensure consistent, progressive learning outcomes.'
+    ],
+  },
+  {
     designation: 'Executive Member',
-    company_name: 'BASIS-IUBAT',
+    company_name: 'BASIS, IUBAT',
     company_link: 'https://www.facebook.com/basisstudentsforumiubat',
     time: 'May 2022 - October 2024',
     bullets: [
       'Collaborated on planning and executing technical workshops and seminars, including hands-on sessions on Git & GitHub and webinars on internships and career development.',
       'Promoted events through coordinated on-campus campaigns and digital outreach, boosting engagement and attendance among students.',
-      'SContributed to event setup and branding — decorating venues with banners and balloons, arranging logistics, and ensuring a welcoming, professional atmosphere.',
+      'Contributed to event setup and branding — decorating venues with banners and balloons, arranging logistics, and ensuring a welcoming, professional atmosphere.',
       'Volunteered in event-day operations, including attendee registration, speaker support, and smooth flow of sessions.'
     ],
   },
