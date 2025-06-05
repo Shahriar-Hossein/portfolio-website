@@ -22,7 +22,7 @@ export const projects: Project[] = [
   {
     title: 'Portfolio Website',
     description:
-      'This site holds all the information about me, my works, projects and certifications. This website showcases my development expereicne and skills.',
+      'This site holds all the information about me, my works, projects and certifications. Used this project to practice and learn vuejs and typescript. This website will be continuously updated for further improvements.',
     githubLink: 'https://github.com/Shahriar-Hossein/portfolio-website',
     //liveLink: " ",
     imageUrl: '/nature.jpg',
@@ -40,7 +40,7 @@ export const projects: Project[] = [
   {
     title: 'Rental Book Service',
     description:
-      'Project built for my academic course. A website to rent books instead of buying. For automating book renting and return process.',
+      'Project built for my academic course. A website for rent book service. Instead of buying books, renting and resuing them has both economical and environmental benefits. This project automates the process of renting and delivering books, as well as smooth inventory management',
     githubLink: 'https://github.com/Shahriar-Hossein/book-rental-service',
     //liveLink: " ",
     imageUrl: '/nature.jpg',
