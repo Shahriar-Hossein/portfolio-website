@@ -9,12 +9,17 @@ defineExpose({
 </script>
 
 <template>
-  <section ref="aboutRef" id="about" class="container mx-auto flex-col items-center place-content-center py-26">
-    <div class="lg:mx-32">
-      <h1 class="text-4xl text-cyan-400 font-bold my-12"> About me </h1>
-      <div class="flex flex-col-reverse lg:flex-row lg:justify-between lg:content-start">
-        <div class="my-2 lg:pr-12">
-          <p class="mt-2">
+  <section
+    ref="aboutRef"
+    id="about"
+    class="container mx-auto py-20 px-4 md:px-8"
+  >
+    <div class="mx-auto max-w-5xl">
+      <h1 class="text-3xl md:text-4xl text-cyan-400 font-bold mb-10 text-center md:text-left"> About me </h1>
+
+      <div class="flex flex-col-reverse md:flex-row items-center md:items-start gap-10">
+        <div class="w-full md:w-3/5">
+          <p class="mt-4 leading-relaxed">
             I'm Md Shahriar Hossein, a software engineer focused on <strong>backend development</strong>, with a strong interest in building robust, scalable, and well-architected systems.
           </p>
           <p class="mt-2">
@@ -27,10 +32,10 @@ defineExpose({
             Whether it's crafting optimized queries, building reusable components, or collaborating across teams, I aim to write code that's clean, maintainable, and built to scale.
           </p>
         </div>
-        <div class="lg:px-22">
+        <div class="w-full md:w-2/5 flex justify-center">
           <img
-            class="h-auto max-w-3xs mx-auto transition-all duration-300 rounded-xl opacity-30 hover:opacity-100 shadow-xl shadow-cyan-500/50 transition-all ease-linear duration-300"
-            src="../assets/IMG-20250217-WA0004.jpg"
+            class="rounded-xl opacity-70 hover:opacity-100 transition-opacity duration-300 shadow-xl shadow-cyan-500/30 h-74 md:h-96"
+            src="../assets/my_pic.jpg"
             alt="My Picture"
           />
         </div>
