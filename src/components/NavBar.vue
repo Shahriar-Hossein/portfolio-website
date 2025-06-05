@@ -1,11 +1,6 @@
 <script setup lang="ts">
+import type { SectionRefs } from '@/types/SectionRefs';
 import { onMounted, onUnmounted, ref, type Ref } from 'vue';
-
-export interface SectionRefs {
-  home: Ref<HTMLElement | null>;
-  about: Ref<HTMLElement | null>;
-  project: Ref<HTMLElement | null>;
-}
 
 const props = defineProps<{
   sectionRefsProps: SectionRefs;
