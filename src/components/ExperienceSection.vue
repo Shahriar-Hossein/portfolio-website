@@ -31,6 +31,7 @@ const handleSelection = (index: number) =>{
       <div class="flex gap-12 items-start">
         <div class="h-92 overflow-y-auto">
           <ul class="">
+            <!-- future design -->
             <!-- <li
               class="bg-cyan-500 cursor-pointer rounded-tl-full rounded-br-full hover:rounded-3xl transition-rounded duration-500 ease-out text-white text-sm text-center self-center px-4 py-2"
             >
@@ -59,10 +60,11 @@ const handleSelection = (index: number) =>{
           <div class="pb-2 text-sm">
             <span>{{ showExp?.time }}</span>
           </div>
-          <ul>
+          <ul class="list-none">
             <li
               v-for="bullet in showExp?.bullets"
               :key="bullet"
+              class="relative pl-5 before:absolute before:left-0 before:top-3 before:h-2 before:w-2 before:rounded-full before:bg-cyan-500"
             >
               {{ bullet }}
             </li>
