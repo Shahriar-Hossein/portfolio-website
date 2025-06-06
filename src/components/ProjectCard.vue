@@ -39,7 +39,7 @@ defineProps<{ project: Project }>();
         </svg>
       </a>
       <a
-        v-if="project.githubLink"
+        v-if="project.liveLink"
         :href="project.liveLink"
         target="_blank"
         class="flex-1 inline-flex items-center justify-center text-sm text-white bg-cyan-600 hover:bg-cyan-700 rounded-md px-3 py-2 transition-all duration-200"
