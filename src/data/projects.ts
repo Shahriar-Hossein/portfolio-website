@@ -1,4 +1,7 @@
 import type { Project } from '@/interfaces/Project '
+import portfolioImage from '@/assets/images/portfolio.png'
+import ecomBackendImage from '@/assets/images/ecom_backend.png'
+import learningPlatformImage from '@/assets/images/learning_platform.png'
 
 export const projects: Project[] = [
   {
@@ -7,7 +10,7 @@ export const projects: Project[] = [
       'An online market place for buying and selling courses. Teachers can create courses, quizes, video lessons. Students can access the course materials after buying the course through a secure online payment.',
     githubLink: 'https://github.com/Shahriar-Hossein/Learning-Platform',
     //liveLink: " ",
-    imageUrl: '/nature.jpg',
+    imageUrl: learningPlatformImage,
     techStacks: ['PHP', 'TailwindCSS', 'Javascript', 'SSLCOMMERZ'],
   },
   {
@@ -16,7 +19,7 @@ export const projects: Project[] = [
       'This is the backend of an ecommerce website. Made the APIs with REST architecture and also documented with swagger. Features include products, categories, banners of the site, product order and user profile. Role for admin implemented as well.',
     githubLink: 'https://github.com/Shahriar-Hossein/ecommerce-backend',
     //liveLink: " ",
-    imageUrl: '/nature.jpg',
+    imageUrl: ecomBackendImage,
     techStacks: [' Laravel', 'REST API', 'Sanctum', 'L5-Swagger'],
   },
   {
@@ -25,7 +28,7 @@ export const projects: Project[] = [
       'This site holds all the information about me, my works, projects and certifications. Used this project to practice and learn vuejs and typescript. This website will be continuously updated for further improvements.',
     githubLink: 'https://github.com/Shahriar-Hossein/portfolio-website',
     //liveLink: " ",
-    imageUrl: '/nature.jpg',
+    imageUrl: portfolioImage,
     techStacks: ['Vuejs', 'Typescript', 'TailwindCSS'],
   },
   {
