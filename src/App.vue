@@ -8,17 +8,17 @@ import ExperienceSection from './components/ExperienceSection.vue'
 import type { SectionRefs } from './types/SectionRefs'
 
 
-const homeRef = ref(null);
-const aboutRef = ref(null);
-const experienceRef = ref(null);
-const projectsRef = ref(null);
+const homeRef = ref<InstanceType<typeof HeroSection> | null>(null);
+const aboutRef = ref<InstanceType<typeof AboutSection> | null>(null);
+const experienceRef = ref<InstanceType<typeof ExperienceSection> | null>(null);
+const projectsRef = ref<InstanceType<typeof ProjectSection> | null>(null);
 
 // Initialize refs
 const sectionRefs: SectionRefs = {
-  home: computed(()=> homeRef.value?.homeRef),
-  about: computed(()=> aboutRef.value?.aboutRef),
-  experience: computed(()=> experienceRef.value?.experienceRef),
-  projects: computed(()=> projectsRef.value?.projectsRef),
+  home: computed(()=> homeRef.value?.homeRef ?? null),
+  about: computed(()=> aboutRef.value?.aboutRef ?? null),
+  experience: computed(()=> experienceRef.value?.experienceRef ?? null),
+  projects: computed(()=> projectsRef.value?.projectsRef ?? null),
 };
 
 // Typed scroll function
