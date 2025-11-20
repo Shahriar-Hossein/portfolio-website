@@ -5,7 +5,7 @@ export const experiences: Experience[] = [
     designation: 'Junior Software Engineer',
     company_name: 'DevSpace',
     company_link: 'https://www.linkedin.com/company/devspacebd/',
-    time: 'September 2024 - August 2024',
+    time: 'September 2023 - August 2024',
     bullets: [
       'Delivered 90+ API endpoints following REST conventions across 3 projects within 7 months in Laravel.',
       'Automated API documentation using L5-Swagger, reducing integration time by 25%.',
@@ -17,20 +17,20 @@ export const experiences: Experience[] = [
 
     ],
   },
-  {
-    designation: 'Software Engineer (Part-Time)',
-    company_name: 'Sharksss Capital Inc',
-    company_link: 'https://www.facebook.com/profile.php?id=61576568017984',
-    time: 'June 2025 - Present',
-    bullets: [
-      'Leading the development of the company’s full-featured website for a forex trading platform, with role-based access for students, investors, and administrators.',
-      'Planning and building core modules, including course purchasing and access for students, investment handling for investors, and a management dashboard for admins.',
-      'Collaborating closely with stakeholders to define features such as team profiles, trading blogs, course listings, and a multimedia gallery.',
-      'Interviewed and selected web development interns; will lead and mentor them throughout the development cycle.',
-      'Responsible for maintaining clean, scalable architecture while ensuring security, usability, and performance of the platform.'
+  // {
+  //   designation: 'Software Engineer (Part-Time)',
+  //   company_name: 'Sharksss Capital Inc',
+  //   company_link: 'https://www.facebook.com/profile.php?id=61576568017984',
+  //   time: 'June 2025 - Present',
+  //   bullets: [
+  //     'Leading the development of the company’s full-featured website for a forex trading platform, with role-based access for students, investors, and administrators.',
+  //     'Planning and building core modules, including course purchasing and access for students, investment handling for investors, and a management dashboard for admins.',
+  //     'Collaborating closely with stakeholders to define features such as team profiles, trading blogs, course listings, and a multimedia gallery.',
+  //     'Interviewed and selected web development interns; will lead and mentor them throughout the development cycle.',
+  //     'Responsible for maintaining clean, scalable architecture while ensuring security, usability, and performance of the platform.'
 
-    ],
-  },
+  //   ],
+  // },
   {
     designation: 'Founder & CEO',
     company_name: 'Rental Books Service ',
