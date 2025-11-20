@@ -14,6 +14,17 @@ export const experiences: Experience[] = [
     ],
   },
   {
+    designation: 'Software Engineer (Part-Time, Remote)',
+    company_name: 'Softdeft',
+    company_link: 'https://softdeft.com/', // replace with actual link if available
+    time: 'June 2025 - Present',
+    bullets: [
+      'Sole developer of a scalable Laravel + Livewire course platform, built for maintainability and future feature expansion.',
+      'Designed the database schema and implemented core functionality from scratch, including multi-module courses, sequential module unlocking, video lessons, quizzes, and real-time progress tracking.',
+      'Developed advanced purchase systems with individual course enrollment, group buying, combo packages, coupon/discount management, and revenue-sharing between instructors and platform.'
+    ],
+  },
+  {
     designation: 'Junior Software Engineer',
     company_name: 'DevSpace',
     company_link: 'https://www.linkedin.com/company/devspacebd/',
