@@ -42,14 +42,12 @@ onUnmounted(() => {
     ref="navbarRef"
     class="fixed top-0 left-0 z-50 w-full backdrop-blur-lg bg-gray-900/70 border-b border-gray-700 shadow-lg transition-all duration-300"
   >
-    <div class="flex flex-col md:flex-row items-center justify-between px-4 py-3 md:px-8 lg:px-32">
+    <div class="flex flex-col md:flex-row items-center justify-between p-2 md:px-8 lg:px-32">
 
       <div class="flex justify-between items-stretch w-full">
         <!-- Logo -->
-        <a href="#" class="flex items-center">
-          <span class="text-cyan-400 text-2xl font-bold tracking-wide uppercase">
-            Shahriar
-          </span>
+        <a href="#" class="flex items-center space-x-2">
+          <span class="text-cyan-400 text-2xl md:text-3xl font-extrabold uppercase">Shahriar</span>
         </a>
 
         <!-- Mobile Menu Button -->
