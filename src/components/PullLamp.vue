@@ -47,7 +47,7 @@ onBeforeUnmount(() => {
 
         <!-- LAMP SHADE (cone shape) -->
         <div
-          class="relative w-32 h-28 transition-all duration-500 border-x border-b shadow-xl overflow-hidden"
+          class="relative w-32 h-28 transition-all duration-500 border-x border-b shadow-xl"
           :class="
             isOn
               ? 'bg-gradient-to-b from-yellow-200/60 to-yellow-400/70 border-yellow-400'
@@ -63,12 +63,12 @@ onBeforeUnmount(() => {
             "
           ></div>
 
-          <!-- DOWNWARD GLOW -->
-          <div
-            class="absolute bottom-0 left-1/2 -translate-x-1/2 w-64 h-64 rounded-full opacity-0 transition-all duration-500 pointer-events-none"
-            :class="isOn ? 'opacity-30 bg-yellow-300 blur-[160px]' : ''"
-          ></div>
         </div>
+        <!-- DOWNWARD GLOW -->
+        <div
+          class="absolute left-1/2 -top-2/3 -translate-x-1/2 w-102 h-102 rounded-full opacity-0 transition-all duration-500"
+          :class="isOn ? 'opacity-30 bg-yellow-300 blur-[160px]' : ''"
+        ></div>
 
         <!-- SHADE RIM -->
         <div
