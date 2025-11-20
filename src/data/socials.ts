@@ -10,33 +10,27 @@ import type { Social } from '@/interfaces/Social'
 
 export const socials: Social[] = [
   {
-    my_name: 'Shahriar Shihab',
-    platform_name:'Facebook',
-    link: 'https://www.facebook.com/shahriar.shihab.1069/',
-    icon: IconFacebook,
-  },
-  {
     my_name: 'Shahriar Hossein',
     platform_name:'Linkedin',
     link: 'https://www.linkedin.com/in/shahriar-hossein-27b022205/',
     icon: IconLinkedin,
   },
   // {
-  //   my_name: 'Shahriar Hossein',
-  //   platform_name:'Gmail',
-  //   link: 'shahriar2507@gmail.com',
-  //   icon: IconGmail,
-  // },
-  {
-    my_name: 'Shahriar Hossein',
-    platform_name:'Github',
-    link: 'https://github.com/Shahriar-Hossein',
-    icon: IconGithub,
-  },
-  {
-    my_name: 'Shihab567',
-    platform_name:'Codeforces',
-    link: 'https://codeforces.com/profile/Shihab567',
+    //   my_name: 'Shahriar Hossein',
+    //   platform_name:'Gmail',
+    //   link: 'shahriar2507@gmail.com',
+    //   icon: IconGmail,
+    // },
+    {
+      my_name: 'Shahriar Hossein',
+      platform_name:'Github',
+      link: 'https://github.com/Shahriar-Hossein',
+      icon: IconGithub,
+    },
+    {
+      my_name: 'Shihab567',
+      platform_name:'Codeforces',
+      link: 'https://codeforces.com/profile/Shihab567',
     icon: IconCodeforces,
   },
   {
@@ -56,5 +50,11 @@ export const socials: Social[] = [
     platform_name:'Leetcode',
     link: 'https://leetcode.com/u/So_lo/',
     icon: IconLeetcode,
+  },
+  {
+    my_name: 'Shahriar Shihab',
+    platform_name:'Facebook',
+    link: 'https://www.facebook.com/shahriar.shihab.1069/',
+    icon: IconFacebook,
   },
 ]
