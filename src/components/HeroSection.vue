@@ -21,7 +21,7 @@ defineExpose({
   >
     <div class="w-full">
       <div
-        class="flex flex-col-reverse lg:flex-row items-center justify-around gap-4 md:gap-8 mx-4 md:mx-20"
+        class="flex flex-col lg:flex-row items-center justify-around gap-2 md:gap-8"
       >
         <!-- LEFT SECTION -->
         <div class="max-w-xl space-y-6">
