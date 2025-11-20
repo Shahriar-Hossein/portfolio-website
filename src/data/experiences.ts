@@ -7,7 +7,7 @@ export const experiences: Experience[] = [
     company_link: 'https://wpxpo.com/',
     time: 'July 2025 - Present',
     bullets: [
-      'Improved multiple WordPress plugins by fixing bugs, enhancing UI/UX, and building new features using React, jQuery, AJAX, PHP, and REST APIs.',
+      'Improved WordPress plugin wowRevenue by fixing bugs, enhancing UI/UX, and building new features using React, jQuery, AJAX, PHP, and REST APIs.',
       'Modularized large React components and streamlined PHP logic with reusable abstractions, reducing file size by ~10% and boosting maintainability and scalability.',
       'Optimized dynamic interactions such as cart updates, discounts, and real-time UI changes using jQuery and WordPress hooks.',
       'Diagnosed and resolved user-reported issues, including debugging directly on client sites and shipping patch updates.'
