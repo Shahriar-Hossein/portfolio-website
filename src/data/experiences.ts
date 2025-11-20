@@ -3,18 +3,27 @@ import type { Experience } from '@/interfaces/Experience'
 export const experiences: Experience[] = [
   {
     designation: 'Junior Software Engineer',
+    company_name: 'WPXPO',
+    company_link: 'https://wpxpo.com/',
+    time: 'July 2025 - Present',
+    bullets: [
+      'Improved multiple WordPress plugins by fixing bugs, enhancing UI/UX, and building new features using React, jQuery, AJAX, PHP, and REST APIs.',
+      'Modularized large React components and streamlined PHP logic with reusable abstractions, reducing file size by ~10% and boosting maintainability and scalability.',
+      'Optimized dynamic interactions such as cart updates, discounts, and real-time UI changes using jQuery and WordPress hooks.',
+      'Diagnosed and resolved user-reported issues, including debugging directly on client sites and shipping patch updates.'
+    ],
+  },
+  {
+    designation: 'Junior Software Engineer',
     company_name: 'DevSpace',
     company_link: 'https://www.linkedin.com/company/devspacebd/',
     time: 'September 2023 - August 2024',
     bullets: [
-      'Delivered 90+ API endpoints following REST conventions across 3 projects within 7 months in Laravel.',
-      'Automated API documentation using L5-Swagger, reducing integration time by 25%.',
-      'Integrated OAuth login via Google and Facebook using Laravel Socialite for streamlined user authentication.',
-      'Developed office management system using Laravel+Vuejs with automated attendance tracking and leave management, for the devspace team saving 5+ weekly hours.',
-      'Co-developed a Next.js + React company portfolio website, enhancing brand visibility and online presence.',
-      'Implemented a theme-switching system with multiple color schemes to improve user experience.',
-      'Developed a blog application with profiles, posts, nested comments and image uploads using Ruby on Rails.'
-
+      'Engineered databases and built full RESTful APIs for an e-commerce platform, hotel management system, and office management tool.',
+      'Implemented role-based access control, OAuth authentication, and queued email notifications; documented APIs using L5-Swagger to speed up frontend integration by 25%.',
+      'Developed the Vue.js frontend for the office management system, including automated attendance and leave workflows saving 5+ weekly hours.',
+      'Progressed from basic HTML/CSS to full-stack development with Linux, Ruby on Rails, Vue, and React/Next.js during internship phase.',
+      'Built RESTful APIs in Ruby on Rails and integrated them with React/Next.js frontends using TailwindCSS and Material-UI.'
     ],
   },
   // {
