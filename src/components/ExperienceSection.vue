@@ -25,7 +25,7 @@ const handleSelection = (index: number) =>{
     <div class="mx-auto max-w-5xl">
       <h1 class="text-3xl md:text-4xl text-cyan-400 font-bold mb-10 text-center md:text-left">Experience</h1>
 
-      <div class="flex flex-col md:flex-row md:gap-8">
+      <div class="flex flex-col md:flex-row gap-2 md:gap-8">
         <!-- Company names -->
         <ul class="flex md:flex-col overflow-x-auto md:h-64 md:overflow-visible">
           <!-- future design -->
@@ -49,7 +49,7 @@ const handleSelection = (index: number) =>{
         </ul>
         <!-- Description -->
         <div class="md:flex-1 mx-2 ">
-          <div class="text-xl font-bold">
+          <div class="text-xl font-bold gap-2">
             <span>{{ showExp?.designation }}</span>
             <span> - </span>
             <a
