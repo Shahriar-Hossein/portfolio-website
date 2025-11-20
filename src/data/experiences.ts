@@ -14,7 +14,7 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    designation: 'Software Engineer (Part-Time, Remote)',
+    designation: 'Software Engineer (Contract, Remote)',
     company_name: 'Softdeft',
     company_link: 'https://softdeft.com/', // replace with actual link if available
     time: 'June 2025 - Present',
