@@ -49,7 +49,7 @@ const handleSelection = (index: number) =>{
         </ul>
         <!-- Description -->
         <div class="md:flex-1 mx-2 ">
-          <div class="text-xl font-bold gap-2">
+          <div class="text-xl font-bold">
             <span>{{ showExp?.designation }}</span>
             <span> - </span>
             <a
@@ -67,7 +67,7 @@ const handleSelection = (index: number) =>{
             <li
               v-for="bullet in showExp?.bullets"
               :key="bullet"
-              class="relative pl-5 before:absolute before:left-0 before:top-3 before:h-2 before:w-2 before:rounded-full before:bg-cyan-500 mb-1"
+              class="relative pl-5 pb-1 before:absolute before:left-0 before:top-3 before:h-2 before:w-2 before:rounded-full before:bg-cyan-500 mb-1"
             >
               {{ bullet }}
             </li>
