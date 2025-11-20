@@ -20,16 +20,16 @@ defineExpose({
       <div class="flex flex-col-reverse md:flex-row items-center md:items-start gap-10">
         <div class="w-full md:w-3/5">
           <p class="mt-4 leading-relaxed">
-            I'm Md Shahriar Hossein, a software engineer focused on <strong>backend development</strong>, with a strong interest in building robust, scalable, and well-architected systems.
+            I'm Md Shahriar Hossein, a software engineer with 2+ years of experience building robust, scalable, and maintainable systems across multiple stacks and platforms. My focus spans backend development, API design, and full-stack web applications.
           </p>
           <p class="mt-2">
-            Previously, I worked at DevSpace as a Junior Software Engineer, where I developed 90+ RESTful Laravel API endpoints across multiple projects and led backend efforts for an internal office management system with attendance and leave automation.
+            Professionally, I have worked as a Junior Software Engineer at <strong>WPXPO</strong> and <strong>DevSpace</strong>, contributing to large-scale projects using PHP, Laravel, WordPress, React, Livewire, and jQuery. I’ve designed and implemented APIs, refactored legacy codebases, optimized frontend and backend workflows, and delivered features that improved usability, performance, and maintainability.
           </p>
           <p class="mt-2">
-            In addition to professional work, I’ve developed full-featured personal projects including an e-learning platform and a university automation system, both built from scratch using raw PHP, JavaScript, and Tailwind. These helped me deeply understand database design, role-based access, real-time feedback systems, and third-party integrations like SSLCommerz.
+            Beyond professional work, I’ve independently developed full-featured platforms including an e-learning system and university automation tools, handling everything from database design and role-based access to real-time feedback systems and payment integrations.
           </p>
           <p class="mt-2">
-            Whether it's crafting optimized queries, building reusable components, or collaborating across teams, I aim to write code that's clean, maintainable, and built to scale.
+            My approach is to write clean, efficient, and scalable code while continuously learning new technologies, improving systems, and collaborating effectively across teams.
           </p>
         </div>
         <div class="w-full md:w-2/5 flex justify-center">

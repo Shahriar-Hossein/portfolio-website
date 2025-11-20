@@ -25,7 +25,7 @@ const handleSelection = (index: number) =>{
     <div class="mx-auto max-w-5xl">
       <h1 class="text-3xl md:text-4xl text-cyan-400 font-bold mb-10 text-center md:text-left">Experience</h1>
 
-      <div class="flex flex-col md:flex-row md:gap-8">
+      <div class="flex flex-col md:flex-row gap-2 md:gap-8">
         <!-- Company names -->
         <ul class="flex md:flex-col overflow-x-auto md:h-64 md:overflow-visible">
           <!-- future design -->
@@ -67,7 +67,7 @@ const handleSelection = (index: number) =>{
             <li
               v-for="bullet in showExp?.bullets"
               :key="bullet"
-              class="relative pl-5 before:absolute before:left-0 before:top-3 before:h-2 before:w-2 before:rounded-full before:bg-cyan-500 mb-1"
+              class="relative pl-5 pb-1 before:absolute before:left-0 before:top-3 before:h-2 before:w-2 before:rounded-full before:bg-cyan-500 mb-1"
             >
               {{ bullet }}
             </li>

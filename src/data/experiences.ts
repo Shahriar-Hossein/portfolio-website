@@ -3,34 +3,54 @@ import type { Experience } from '@/interfaces/Experience'
 export const experiences: Experience[] = [
   {
     designation: 'Junior Software Engineer',
-    company_name: 'DevSpace',
-    company_link: 'https://www.linkedin.com/company/devspacebd/',
-    time: 'September 2024 - August 2024',
+    company_name: 'WPXPO',
+    company_link: 'https://wpxpo.com/',
+    time: 'July 2025 - Present',
     bullets: [
-      'Delivered 90+ API endpoints following REST conventions across 3 projects within 7 months in Laravel.',
-      'Automated API documentation using L5-Swagger, reducing integration time by 25%.',
-      'Integrated OAuth login via Google and Facebook using Laravel Socialite for streamlined user authentication.',
-      'Developed office management system using Laravel+Vuejs with automated attendance tracking and leave management, for the devspace team saving 5+ weekly hours.',
-      'Co-developed a Next.js + React company portfolio website, enhancing brand visibility and online presence.',
-      'Implemented a theme-switching system with multiple color schemes to improve user experience.',
-      'Developed a blog application with profiles, posts, nested comments and image uploads using Ruby on Rails.'
-
+      'Improved WordPress plugin wowRevenue by fixing bugs, enhancing UI/UX, and building new features using React, jQuery, AJAX, PHP, and REST APIs.',
+      'Modularized large React components and streamlined PHP logic with reusable abstractions, reducing file size by ~10% and boosting maintainability and scalability.',
+      'Optimized dynamic interactions such as cart updates, discounts, and real-time UI changes using jQuery and WordPress hooks.',
+      'Diagnosed and resolved user-reported issues, including debugging directly on client sites and shipping patch updates.'
     ],
   },
   {
-    designation: 'Software Engineer (Part-Time)',
-    company_name: 'Sharksss Capital Inc',
-    company_link: 'https://www.facebook.com/profile.php?id=61576568017984',
+    designation: 'Software Engineer (Contract, Remote)',
+    company_name: 'Softdeft',
+    company_link: 'https://softdeft.com/', // replace with actual link if available
     time: 'June 2025 - Present',
     bullets: [
-      'Leading the development of the company’s full-featured website for a forex trading platform, with role-based access for students, investors, and administrators.',
-      'Planning and building core modules, including course purchasing and access for students, investment handling for investors, and a management dashboard for admins.',
-      'Collaborating closely with stakeholders to define features such as team profiles, trading blogs, course listings, and a multimedia gallery.',
-      'Interviewed and selected web development interns; will lead and mentor them throughout the development cycle.',
-      'Responsible for maintaining clean, scalable architecture while ensuring security, usability, and performance of the platform.'
-
+      'Sole developer of a scalable Laravel + Livewire course platform, built for maintainability and future feature expansion.',
+      'Designed the database schema and implemented core functionality from scratch, including multi-module courses, sequential module unlocking, video lessons, quizzes, and real-time progress tracking.',
+      'Developed advanced purchase systems with individual course enrollment, group buying, combo packages, coupon/discount management, and revenue-sharing between instructors and platform.'
     ],
   },
+  {
+    designation: 'Junior Software Engineer',
+    company_name: 'DevSpace',
+    company_link: 'https://www.linkedin.com/company/devspacebd/',
+    time: 'September 2023 - August 2024',
+    bullets: [
+      'Engineered databases and built full RESTful APIs for an e-commerce platform, hotel management system, and office management tool.',
+      'Implemented role-based access control, OAuth authentication, and queued email notifications; documented APIs using L5-Swagger to speed up frontend integration by 25%.',
+      'Developed the Vue.js frontend for the office management system, including automated attendance and leave workflows saving 5+ weekly hours.',
+      'Progressed from basic HTML/CSS to full-stack development with Linux, Ruby on Rails, Vue, and React/Next.js during internship phase.',
+      'Built RESTful APIs in Ruby on Rails and integrated them with React/Next.js frontends using TailwindCSS and Material-UI.'
+    ],
+  },
+  // {
+  //   designation: 'Software Engineer (Part-Time)',
+  //   company_name: 'Sharksss Capital Inc',
+  //   company_link: 'https://www.facebook.com/profile.php?id=61576568017984',
+  //   time: 'June 2025 - Present',
+  //   bullets: [
+  //     'Leading the development of the company’s full-featured website for a forex trading platform, with role-based access for students, investors, and administrators.',
+  //     'Planning and building core modules, including course purchasing and access for students, investment handling for investors, and a management dashboard for admins.',
+  //     'Collaborating closely with stakeholders to define features such as team profiles, trading blogs, course listings, and a multimedia gallery.',
+  //     'Interviewed and selected web development interns; will lead and mentor them throughout the development cycle.',
+  //     'Responsible for maintaining clean, scalable architecture while ensuring security, usability, and performance of the platform.'
+
+  //   ],
+  // },
   {
     designation: 'Founder & CEO',
     company_name: 'Rental Books Service ',
