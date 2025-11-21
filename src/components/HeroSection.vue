@@ -69,7 +69,7 @@ defineExpose({
             </a>
 
             <a
-              href="/Md_Shahriar_Hossein_Resume.pdf"
+              href="/Shahriar_Resume.pdf"
               target="_blank"
               class="flex items-center px-5 py-2 text-sm font-medium text-cyan-400
                      border border-cyan-600 rounded-lg hover:bg-cyan-800 transition"
